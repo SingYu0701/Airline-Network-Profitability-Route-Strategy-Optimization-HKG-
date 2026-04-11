@@ -118,7 +118,24 @@ Resulting Market Segments:
     
 **Market size alone does not determine profitability, competition structure is equally important.**
 
-## 6. Strategy Quadrant Map
+## 6. Strategic Route Prioritization (Best Routes)
+<img width="2077" height="1142" alt="圖片" src="https://github.com/user-attachments/assets/6e172f81-ea35-439f-9879-d6dbdfa69654" />
+
+A route prioritization framework was developed by combining demand potential, yield proxy, and competitive intensity to identify **high-value expansion opportunities from HKG**.
+
+The resulting **top-ranked routes (best_routes)** represent destinations with the highest strategic development potential.
+
+Key characteristics of prioritized routes include:
+
+- High underlying market demand (GDP + population scale)
+- Strong yield potential (higher income destinations)
+- Relatively favorable competition structure
+- Balanced distance profile (medium-haul efficiency)
+
+These routes are interpreted as **optimal candidates for network expansion and capacity allocation**, reflecting both profitability potential and strategic network value.
+
+
+## 7. Strategy Quadrant Map
 <img width="1774" height="1099" alt="圖片" src="https://github.com/user-attachments/assets/403b0db1-2c6a-4de1-9ac7-2a2915e9552c" />
 
 Routes are segmented using **demand vs yield** percentiles.
@@ -141,7 +158,7 @@ Four Strategic Zones:
   - Scale-driven routes (volume-based strategy)
   - Sensitive to competition pressure
 
-## 7. Competition vs Profitability Dynamics
+## 8. Competition vs Profitability Dynamics
 
 <img width="1265" height="696" alt="圖片" src="https://github.com/user-attachments/assets/13256d69-8d35-42d9-8a27-9aa9bdc121fe" />
 
@@ -152,7 +169,7 @@ This scatter plot shows relationship between:
 **Some high competition routes still profitable**
 **Indicates network effect hubs**
 
-## 8. Robustness Analysis (Scenario Testing)
+## 9. Robustness Analysis (Scenario Testing)
 <img width="1484" height="731" alt="圖片" src="https://github.com/user-attachments/assets/df6a1d29-76aa-44bd-9317-0795e8ba6099" />
 
 To evaluate stability, base and three stress scenarios are simulated:
@@ -175,7 +192,7 @@ Averaged performance across all scenarios:
 - Helps avoid over-reliance on short-term profitability
 
 
-## 9. Scenario Sensitivity Heatmap
+## 10. Scenario Sensitivity Heatmap
 <img width="1265" height="731" alt="圖片" src="https://github.com/user-attachments/assets/13455a57-a413-4ce8-8a98-7a744e47ff86" />
 
 This visualization compares profitability across scenarios for top routes.
@@ -186,7 +203,7 @@ Understand which routes are:
 - **cost-sensitive**
 - **competition-sensitive**
 
-## 10. Key Findings
+## 11. Key Findings
 - **1. HKG operates as a hybrid hub****
   - Strong Asia-core dominance
   - Significant long-haul premium exposure
@@ -205,7 +222,7 @@ Understand which routes are:
   - Medium haul distance
   - High GDP per capita regions
 
-## 11. Tools & Technologies
+## 12. Tools & Technologies
 - **R (tidyverse)** – data wrangling & modeling
 - **geosphere** – geospatial distance calculation
 - **countrycode** – country standardization
