@@ -2,6 +2,15 @@
 **Personal Data Analysis Project, Apr 2026** 
 ![Made with R](https://img.shields.io/badge/Made%20with-R-276DC3?logo=r&logoColor=white)
 
+## Key Insights
+
+- Profitability is highly concentrated in routes where both **demand (log GDP + log population) and yield (log GDP per capita) are simultaneously high**.
+- Yield (GDP per capita) acts as a stronger discriminator than demand alone, as **high-income markets consistently achieve higher ProfitScore** even after controlling for competition and distance penalties.
+- Competition impacts profitability through a log-transformed penalty (log1p), leading to diminishing but **persistent negative effects as the number of carriers increases**.
+- **Distance affects profitability** via a normalized log-distance penalty, where routes deviating from the network’s average distance (both short- and long-haul) are **penalized relative to mid-range routes**.
+- Frequency-weighted demand (Demand_adj) indicates that **capacity allocation is endogenously aligned with higher-value routes**, reinforcing concentration in already strong markets.
+- Scenario analysis shows asymmetric sensitivity: **fuel cost shocks primarily penalize long-haul routes through distance-related cost amplification, while demand shocks proportionally reduce profitability across all routes**.
+
 ## 1. Project Overview
 
 This project analyzes the global route network of Hong Kong International Airport (HKG) using OpenFlights aviation data combined with World Bank macroeconomic indicators.
