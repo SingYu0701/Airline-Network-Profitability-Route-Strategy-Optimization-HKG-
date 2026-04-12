@@ -4,12 +4,11 @@
 
 ## Key Insights
 
-- Profitability is highly concentrated in routes where both **demand (log GDP + log population) and yield (log GDP per capita) are simultaneously high**.
-- Yield (GDP per capita) acts as a stronger discriminator than demand alone, as **high-income markets consistently achieve higher ProfitScore** even after controlling for competition and distance penalties.
-- Competition impacts profitability through a log-transformed penalty (log1p), leading to diminishing but **persistent negative effects as the number of carriers increases**.
-- **Distance affects profitability** via a normalized log-distance penalty, where routes deviating from the network’s average distance (both short- and long-haul) are **penalized relative to mid-range routes**.
-- Frequency-weighted demand (Demand_adj) indicates that **capacity allocation is endogenously aligned with higher-value routes**, reinforcing concentration in already strong markets.
-- Scenario analysis shows asymmetric sensitivity: **fuel cost shocks primarily penalize long-haul routes through distance-related cost amplification, while demand shocks proportionally reduce profitability across all routes**.
+- Profitability is **concentrated in high-demand, high-yield** routes.
+- Yield dominates demand in **determining route attractiveness**.
+- **Competition and distance** impose **nonlinear penalties** on profitability.
+- **Capacity allocation** reinforces **hub-like concentration** patterns.
+- **Long-haul** routes are more sensitive to **cost shocks** in scenario analysis.
 
 ## 1. Project Overview
 
@@ -202,7 +201,8 @@ Averaged performance across all scenarios:
 
 
 ## 10. Scenario Sensitivity Heatmap
-<img width="1265" height="731" alt="圖片" src="https://github.com/user-attachments/assets/13455a57-a413-4ce8-8a98-7a744e47ff86" />
+<img width="2226" height="869" alt="圖片" src="https://github.com/user-attachments/assets/1c0333a0-c6d4-4b08-86b8-1ceed6f01a0d" />
+
 
 This visualization compares profitability across scenarios for top routes.
 
@@ -213,7 +213,7 @@ Understand which routes are:
 - **competition-sensitive**
 
 ## 11. Key Findings
-- **1. HKG operates as a hybrid hub****
+- **1. HKG operates as a hybrid hub**
   - Strong Asia-core dominance
   - Significant long-haul premium exposure
 - **2. Profitability is multi-factor driven**
